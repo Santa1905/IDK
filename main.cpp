@@ -11,29 +11,30 @@ int main()
     cin >> a;
     cout << "Vtoroe: ";
     cin >> b;
-    cout << "��������: ";
+    cout << "Deistvie: ";
     cin >> z;
     switch (z)
     {
         case '+':
-            // cout �"���������: "� c �endl;
+            cout << " + in progress";
             break;
 
         case '-':
-            // cout �"���������: "�c�endl;
+                cout << " - in progress";
             break;
 
         case '*':
-            // cout �"���������: "�c�endl;
+                cout << " * in progress";
             break;
 
         case '/':
-            // cout �"���������: "�c�endl;
+             cout << " / in progress";
             break;
 
 
-        default: cout << "�� ������ ��������.";
+        default: cout << "  net deistvie";;
     }
 
+    return 0;
 
 }
